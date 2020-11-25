@@ -1,0 +1,996 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6;p
+{
+    margin: 0;
+}
+ul,li,ol
+{
+    list-style: none;
+}
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-div
+{
+    display: flex;  
+}
+
+/*--------------------------------navigration-top start---------------------------------------*/
+
+
+#navigration-top
+{
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    position: absolute;
+    width: 100%;
+    
+}
+.top-info
+{
+    box-sizing: border-box;
+    padding: 12px;
+    justify-content: space-between;
+}
+
+#navigration-top .top-info
+{
+    font-size: 16px;
+    color: aliceblue;
+}
+#navigration-top .phon-gmail .gmail
+{
+    margin-left:30px; 
+}
+#navigration-top .top-info  p
+{
+    margin-left:10px;
+    font-weight: 500;
+   
+}
+#navigration-top .top-info  i
+{
+    color: orange;
+}
+
+
+ /*---------------------------------------navigration-top end--------------------------------------*/
+
+ /*---------------------------------------navigration start--------------------------------------------*/
+#navigration
+{
+    position: absolute;
+    width: 100%;
+}
+.logo-ul
+{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    margin-top: 80px;
+}
+.logo-ul .menu-div ul
+{
+    display: flex;
+    margin-top: 10px;
+}
+.logo-ul .menu-div ul li 
+{
+    list-style: none;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.logo-ul .menu-div ul li a 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    color: aliceblue;
+    transition: .6s;
+}
+.logo-ul .menu-div ul li a:hover
+{
+    color:red;
+    background:green;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+
+   /*----------------------------------------navigration  end-----------------------------------------*/
+
+
+  /*------------------------------------------banner start----------------------------------------------*/
+#banner
+{
+    background: url('image/lady-justice-2388500_1920.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.overly
+{
+     background: rgba(12, 12, 12, 0.445);
+     padding: 250px 0px 100px 0px;
+     
+    
+}
+.banner-content
+{
+    width: 550px;
+    margin-left: 15px;
+    position: relative;
+   
+}
+.banner-content h5 a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #ffb836;
+    font-size: 16px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.banner-content p
+{
+    width: 550px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.banner-content h1 
+{
+    text-transform: uppercase; 
+    font-size: 38px; 
+    color: #eb9d10;
+}  
+
+#banner .left-icon
+{
+    color: aliceblue;
+    font-size: 40px;
+    position: absolute;
+    left: -150px;
+    top: 4px; 
+    transition: .6s;
+}
+#banner .left-icon:hover
+{
+    color: orange;
+}
+#banner .right-icon
+{
+    color: aliceblue;
+    position: absolute;
+    font-size: 40px;
+    right: -700px;
+    top: 4px;
+    transition: .6s;
+}
+#banner .right-icon:hover
+{
+    color: orange;
+}
+  /*--------------------------------------------banner end-----------------------------------------------*/
+
+  /*------------------------------------wlecome-section start-------------------------------------------*/
+.welcome-content
+{
+    width: 580px;
+    margin: 0 auto;
+    text-align: center;
+}
+.welcome-content h1
+{
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.welcome-content p
+{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+#welcome .box-div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    position: relative;
+}
+#welcome .box-div .box
+{
+    width:25%;
+    padding: 100px 0px;
+    border: 2px solid #dbd6d6;
+    text-align: center;
+}
+#welcome .box-div .box_pro
+{
+    width:25%;
+    padding: 110px 0px;
+    text-align: center;
+    background: #e09b1c;
+}
+#welcome .box-div .box_pro i
+{
+    color: aliceblue;
+}
+#welcome .box-div .box_pro h2
+{
+    color: aliceblue;
+}
+#welcome .box-div i
+{
+    font-size: 38px;
+    color: orange;
+}
+#welcome .box-div h2
+{
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #222;
+}
+#welcome .box-div .left-icon
+{
+    font-size: 35px;
+    color: #222222;
+    position: absolute;
+    left: -90px;
+    top: 50%;
+    transform: translateY(-50%)
+}          
+#welcome .box-div .left-icon:hover
+{
+    color: orange;
+    transition: .6s;
+}
+#welcome .box-div .right-icon
+{
+    font-size: 35px;
+    color: #222222;
+    position: absolute;
+    right: -90px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+#welcome .box-div .right-icon:hover
+{
+    color: orange;
+    transition: .6s;
+}
+
+
+  /*-------------------------------------wlecome-section end---------------------------------------------*/
+
+  /*---------------------------------------about-section start--------------------------------------------*/
+#about_section
+{
+ background:#f1f1f1;    
+}
+#about_section .about_all
+{
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 31px;
+}
+#about_section .about_all .about_content
+{
+    width:65%;
+    margin-top: 70px;
+}
+#about_section .about_all .about_img
+{
+    width:35%;
+    position: relative;
+}
+#about_section .about_all .about_img img
+{
+   position: absolute;
+    top: 47px;
+}
+
+#about_section .about_content .about_content-top
+{
+    width: 500px;
+    text-align: center;
+    margin-left: 180px;
+}
+#about_section .about_content .about_content-top h1
+{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+#about_section .about_content .about_content-top p
+{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 25px 15px 0px 0px;
+}
+#about_section .about_content .about_content-top h1 span
+{
+    color: orange;
+}
+
+#about_section .about_content .about_content-bottom 
+{
+    margin-left: 470px;
+    margin-top: 50px;
+}
+#about_section .about_content .about_content-bottom li 
+{
+    display: flex;
+    margin-top: 25px;
+}
+#about_section .about_content .about_content-bottom li p 
+{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#about_section .about_content .about_content-bottom li i 
+{
+    font-size: 25px;
+    color: #e09916;
+}
+.about-button
+{
+    margin-top: 40px;
+    margin-left: 50px;
+     width: 130px;
+}
+.about-button a
+{
+    text-decoration: none;
+    color: #eba016;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 13px 13px;
+    border: 1px solid orange;
+    text-align: center;
+    transition: .4s;
+
+}
+.about-button a:hover
+{
+    color: white !important;
+    background: #e29a18;
+}
+  /*----------------------------------about-section end----------------------------------------------*/
+
+/*--------------------------------------------area section start---------------------------------------->*/
+#area
+{
+   padding: 100px 0px;   
+}
+#area .area_content 
+{
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+#area .area_content h1
+{
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#area .area_content p
+{
+    font-size: 19px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+/*------------------------------------------area section start----------------------------------------------->*/
+
+  /*----------------------------------area-div-section start--------------------------------------------*/
+#area-div-section .area-divs .div
+{
+    width:25%;
+    padding: 35px 0px;
+    background: #f1f1f1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+    box-sizing: border-box;
+    position: relative;
+}
+#area-div-section .area-divs .div:hover
+{
+    border: 1px solid #e29915;
+    color: #e29915;
+}
+#area-div-section .area-divs
+{
+    display: flex;
+    padding: 30px 0px;
+}
+#area-div-section .area-divs .div-ex1
+{
+    margin: 0px 15px 0px 30px;
+}
+#area-div-section .area-divs .div-ex2
+{
+    margin: 0px 30px 0px 15px;
+    border: 1px solid #e29915; 
+}
+#area-div-section .area-divs .div-ex2 h2
+{
+    color: #e29915 !important;
+}
+#area-div-section .area-divs .div i
+{
+    font-size: 35px;
+    color: #e29a18;
+    margin: 20px 0px;
+}
+#area-div-section .area-divs .div h2
+{
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+    transition: .5s;
+}
+#area-div-section .area-divs .div h2:hover
+{
+    color: #e29915;
+}
+#area-div-section .area-divs .div p
+{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px 0px 30px 0px;
+}
+#area-div-section .area-divs .div .area-btn
+{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#area-div-section .area-divs .div .area-btn a
+{
+    
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px solid #e29915;
+    color: #e29915;
+    transition: .4s;
+}
+#area-div-section .area-divs .div .area-btn a:hover
+{
+    background: #e29915;
+    color: aliceblue;
+}
+#area-div-section .area-divs .div .left-icon
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    left: 10px;
+    padding: 8px 5px;
+    border: 1px solid #e29915;
+    transition: .5s;
+}
+#area-div-section .area-divs .div .left-icon:hover
+{
+    background: #e29915;
+    color: aliceblue;
+}
+#area-div-section .area-divs .div .right-icon
+{
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-100%);
+    right: 10px;
+    padding: 8px 5px;
+    border: 1px solid #e29915;
+    transition: .5s;
+}
+#area-div-section .area-divs .div .right-icon:hover
+{
+    background: #e29915;
+    color: aliceblue;
+}
+
+
+  /*-----------------------------------area-div-section end-----------------------------------------------*/
+
+  /*--------------------------------happy-client-section start-------------------------------------------*/
+#happy-client
+{
+    padding: 20px 0px;
+}
+.happy-content
+{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.happy-content h1
+{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 60px 0px 20px 0px;
+}
+.happy-content p
+{
+    font-size: 18px;
+    line-height: 24px;
+}
+#happy-client .client-info-box
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    position: relative;
+}
+#happy-client .client-info-box .box
+{
+    width: 31.5%;
+    padding: 30px 0px;
+    background: #f1f1f1;
+    text-align: center;
+    transition: .4s;
+  
+}
+#happy-client .client-info-box .box:hover
+{
+    background: #cf942c;
+    color: aliceblue;
+}
+#happy-client .client-info-box .box-1
+{
+    border: 1px solid #e29915;
+}
+#happy-client .client-info-box .box h5
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+#happy-client .client-info-box .box h3
+{
+    color: #222;
+}
+#happy-client .client-info-box .box .image
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 25px auto;
+    background: white;
+    overflow: hidden;
+    
+}
+#happy-client .client-info-box .box .image img
+{
+    margin-top: 30px;
+}
+#happy-client .client-info-box .box p
+{
+    width: 90%;
+    font-size: 15px;
+    line-height: 22px;
+}
+#happy-client .client-info-box .left-icon
+{
+    position: absolute;
+    font-size: 40px;
+    padding: 7px 5px;
+    color: #242424;
+    border: 1px solid #242424;
+    top: 50%;
+    left: -100px;
+    transition: .4s;
+    transform: translateY(-50%);
+}
+#happy-client .client-info-box .left-icon:hover
+{
+    color: #e29915;
+    border: 1px solid #e29915;  
+}
+#happy-client .client-info-box .right-icon
+{
+    position: absolute;
+    font-size: 40px;
+    padding: 7px 5px;
+    color: #242424;
+    border: 1px solid #242424;
+    top: 50%;
+    right: -100px;
+    transition: .4s;
+    transform: translateY(-50%);
+}
+#happy-client .client-info-box .right-icon:hover
+{
+    color: #e29915;
+    border: 1px solid #e29915;
+}
+
+  /*-----------------------happy-client-section end--------------------------------------------------*/
+
+/*---------------------------------------attoreny-section start-------------------------------------*/
+#lawyer-section .lawyer-content
+{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+#lawyer-section .lawyer-content h1
+{
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 25px; 
+}
+#lawyer-section .lawyer-content p
+{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+#lawyer-section .lawyer-bio
+{
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+}
+#lawyer-section .lawyer-bio .lawyer-image
+{
+    width: 34%;
+    height: 430px;
+    overflow: hidden;
+}
+#lawyer-section .lawyer-bio .lawyer-details
+{
+    width: 66%;
+    background: #CF942C;
+    margin-right: 15px;
+}
+.lawyer-width
+{
+    width:85%;
+    margin: 20px auto;
+}
+#lawyer-section .lawyer-details .lawyer-width h2
+{
+  font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-weight: 500;   
+}
+#lawyer-section .lawyer-details .lawyer-width h3
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    padding: 8px 0px;
+    border-bottom: 2px solid #ebf4fc;
+    width: 105%;
+}
+#lawyer-section .lawyer-details .lawyer-width p
+{
+    font-size: 14px;
+    color: aliceblue;
+    line-height: 22px; 
+    margin-top: 16px;
+    padding-left: 12px;
+}
+#lawyer-section .lawyer-details .lawyer-width ul
+{
+    margin: 30px 0px 0px 13px;  
+}
+#lawyer-section .lawyer-details .lawyer-width ul li
+{
+    display: inline-block;
+    margin-right: 40px;  
+}
+#lawyer-section .lawyer-details .lawyer-width ul li a i
+{
+    color: aliceblue;
+    font-size: 20px;   
+}
+#lawyer-section .lawyer-bio .left-icon
+{
+    position: absolute;
+    top: 50%;
+    left: -80px;
+    font-size: 38px;
+    padding: 6px 5px;
+    border: 1px solid #e29915;
+    transition: .5s;
+    color: #e29915;
+}
+#lawyer-section .lawyer-bio .left-icon:hover
+{
+    background: #e29915;
+    color: aliceblue;
+}
+#lawyer-section .lawyer-bio .right-icon
+{
+    position: absolute;
+    top: 50%;
+    right: -80px;
+    font-size: 38px;
+    padding: 6px 5px;
+    border: 1px solid #e29915;
+    transition: .5s;
+    color: #e29915;
+}
+#lawyer-section .lawyer-bio .right-icon:hover
+{
+    background: #e29915;
+    color: aliceblue;
+}
+/*---------------------------------------attoreny-section end-------------------------------------*/
+
+/*-----------------------------------------news-section start----------------------------------------------*/
+#news .news-cont 
+{
+    width: 600px;
+    margin: 110px auto;
+    text-align: center;
+}
+#news .news-cont h1
+{
+    font-size: 35px;
+    font-weight: 600;
+}
+#news .news-cont p
+{
+    font-size: 18px;
+    line-height: 25px;
+}
+#news .news-box 
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px 50px 10px;
+}
+#news .news-box .box
+{
+    width: 31.6%;
+    overflow: hidden;
+}
+#news .news-box .box .news-info
+{
+    width: 92%;
+    margin: 0 auto;
+}
+#news .news-box .box .box-border
+{
+    background: #f1f1f1;
+    margin-top: -4px;
+    transition: .4s;
+}
+#news .news-box .box .box-border:hover
+{
+    color: #d89b2c;
+    border: 1px solid #d89b2c;
+}
+#news .news-box .box .news-info h3
+{
+    font-size: 17px;
+    font-weight: 500;
+    color: #d89b2c;
+   padding-top: 10px;
+}
+#news .news-box .box .news-info h5
+{
+    font-size: 16px;
+    font-weight: 400; 
+    margin: 13px 0px;
+}
+#news .news-box .box .news-info p
+{
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+
+/*-----------------------------------------news-section end----------------------------------------------*/
+
+
+/*-------------------------------------------fotter-top section start----------------------------------------*/
+#fotter-logo
+{
+    background: #f1f1f1;
+    text-align: center;
+    padding: 60px 0px 15px 0px;
+    border-bottom: 2px solid #e29915;
+}
+/*-------------------------------------------fotter-top section end----------------------------------------*/
+
+
+/*-------------------------------------------fotter-midle-part section start----------------------------------------*/
+#fotter-midle
+{
+    background: #f1f1f1;
+    padding-bottom: 40px;
+}
+.divided-div
+{
+    display: flex;
+}
+#fotter-midle .fotter_about
+{
+    width: 27%;
+}
+#fotter-midle .fotter_about h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #d08a0f;
+    width: 170px;
+    padding: 15px 0px 12px 0px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d08a0f;
+}
+#fotter-midle .fotter_about p
+{
+    font-size: 15px;
+    line-height: 24px;
+     width: 90%;
+}
+#fotter-midle .fotter_about ul
+{
+    margin-top: 20px;
+}
+#fotter-midle .fotter_about ul li
+{
+    display: inline-block;
+    margin-right: 30px;
+}
+#fotter-midle .fotter_about ul li a i
+{
+    font-size: 20px;
+    color: #000000;
+}
+#fotter-midle .fotter_about ul li a i:hover
+{
+    font-size: 20px;
+    color: #d08a0f;
+}
+{
+    display: inline-block;
+}
+#fotter-midle .fotter-contact
+{
+    width: 22%;
+}
+#fotter-midle .fotter-work
+{
+    width: 22%;
+}
+#fotter-midle .fotter_time
+{
+    width: 29%;
+}
+.fotter-contact ul li
+{
+    display: flex;
+    margin-bottom: 22px;
+    font-size: 16px;
+}
+.fotter-contact ul li i 
+{
+    margin-right: 10px;
+}
+.fotter-contact h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #d08a0f;
+    width: 150px;
+    padding: 15px 0px 12px 0px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d08a0f;  
+}
+.fotter-work
+{
+    margin-left: 20px;
+}
+.fotter-work h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #d08a0f;
+    width: 200px;
+    padding: 15px 0px 12px 0px;
+    margin-bottom: 22px;
+    border-bottom: 2px solid #d08a0f;  
+}
+.fotter-work ul li
+{
+    display: flex;
+    margin-bottom: 22px;
+    font-size: 16px;
+}
+.fotter-work ul li i
+{
+    margin-right: 10px;
+    color: #d08a0f;
+}
+.fotter_time
+{
+    margin-left: 20px;
+}
+.fotter_time h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #d08a0f;
+    width: 170px;
+    padding: 15px 0px 12px 0px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #d08a0f; 
+}
+.fotter_time .date-time
+{
+    display: flex;
+}
+.fotter_time .date-time .date
+{
+    width: 45%;
+}
+.fotter_time .date-time .date ul li
+{
+   margin: 12px;
+    font-size: 16px;
+}
+.fotter_time .date-time .time
+{
+    width: 55%;
+}
+.fotter_time .date-time .time ul li
+{
+       margin: 12px;
+    font-size: 16px;
+}
+
+/*-------------------------------------------fotter-midle-part section end----------------------------------------*/
+
+/*-------------------------------------------fotter-part section start----------------------------------------*/
+
+#fotter
+{
+    background: #CF942C;
+}
+#fotter .fotter-bt
+{
+    padding: 12px 0px;
+    text-align: center;
+}
+#fotter .fotter-bt p
+{
+      display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+}
+#fotter .fotter-bt span
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+/*-------------------------------------------fotter-part section end----------------------------------------*/
